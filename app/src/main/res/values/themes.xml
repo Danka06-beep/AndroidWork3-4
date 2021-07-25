@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AndroidWork34" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDarkGreen</item>
+        <item name="android:textColor">@color/colorTextGreen</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+        <item name="android:background">@color/colorBackgroundGreen</item>
+
+    </style>
+
+    <style name="ThemeBlack" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryBlack</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDarkBlack</item>
+        <item name="android:textColor">@color/colorTextBlack</item>
+        <item name="colorAccent">@color/colorAccentBlack</item>
+        <item name="android:background">@color/colorBackgroundBlack</item>
+
+    </style>
+
+    <style name="ThemeBlue" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDarkBlue</item>
+        <item name="android:textColor">@color/colorTextBlue</item>
+        <item name="colorAccent">@color/colorAccentBlue</item>
+        <item name="android:background">@color/colorBackgroundBlue</item>
+
+    </style>
+
+    <style name="ThemeViolet" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimaryViolet</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDarkViolet</item>
+        <item name="android:textColor">@color/colorAccentViolet</item>
+        <item name="colorAccent">@color/colorTextViolet</item>
+        <item name="android:background">@color/colorBackgroundViolet</item>
+
+    </style>
+</resources>
